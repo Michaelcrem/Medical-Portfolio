@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  background: #fff;
+  color: #222;
+}
+
+.section {
+  padding: 64px 0 32px 0;
+  border-bottom: 1px solid #f0f4fa;
+}
+
+.maxWidth {
+  max-width: 900px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

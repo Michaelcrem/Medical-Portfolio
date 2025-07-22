@@ -1,0 +1,37 @@
+.education {
+  composes: section from '../../index.css';
+}
+h2 {
+  text-align: center;
+}
+.intro {
+  color: #666;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.columns {
+  composes: maxWidth from '../../index.css';
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  text-align: left;
+}
+.column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card {
+  background: #fff;
+  border: 1px solid #e3eafc;
+  border-radius: 12px;
+  padding: 18px 20px;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.04);
+}
+.links a {
+  color: #1976d2;
+  text-decoration: underline;
+  font-size: 0.95rem;
+} 

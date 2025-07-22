@@ -1,0 +1,46 @@
+.contact {
+  composes: section from '../../index.css';
+}
+h2 {
+  text-align: center;
+}
+.intro {
+  color: #666;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.form {
+  composes: maxWidth from '../../index.css';
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.row {
+  display: flex;
+  gap: 12px;
+}
+input, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e3eafc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+  resize: none;
+}
+button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 0;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #125ea2;
+} 
