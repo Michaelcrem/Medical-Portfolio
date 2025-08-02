@@ -4,16 +4,26 @@
   align-items: center;
   padding: 24px 48px 0 48px;
   background: #fff;
+  position: relative;
 }
 .logo {
   font-weight: 600;
   font-size: 1.2rem;
   color: #1976d2;
 }
+.navContainer {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
 .nav {
   display: flex;
   align-items: center;
   gap: 32px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .nav a {
   text-decoration: none;
