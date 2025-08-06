@@ -76,8 +76,18 @@
 .profileImg {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
-  background: #e3eafc;
-  border: 4px solid #fff;
-  box-shadow: 0 2px 16px rgba(25, 118, 210, 0.08);
+  flex-shrink: 0;
+  border-radius: 272px;
+  border: 15px solid var(--Blue-300, #84CAFF);
+  background: var(--Colors-Blue-300, #84CAFF);
+  overflow: hidden;
+}
+
+.profileImg img {
+  width: 200%;
+  height: 200%;
+  object-fit: cover;
+  margin: -50%;
+  position: relative;
+  z-index: 1;
 } 

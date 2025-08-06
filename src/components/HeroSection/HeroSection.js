@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './HeroSection.module.css';
+import profilePhoto from '../../images/Adobe Express - file.png';
 
 const HeroSection = () => (
   <section className={styles.hero}>
@@ -13,7 +14,9 @@ const HeroSection = () => (
       </div>
     </div>
     <div className={styles.imageWrapper}>
-      <div className={styles.profileImg} />
+      <div className={styles.profileImg}>
+        <img src={profilePhoto} alt="Katrina Jackson" />
+      </div>
     </div>
   </section>
 );
