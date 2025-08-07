@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HeroSection.module.css';
-import profilePhoto from '../../images/Adobe Express - file.png';
+import profilePhoto from '../../images/Katblue.svg';
 
 const HeroSection = () => (
   <section className={styles.hero}>

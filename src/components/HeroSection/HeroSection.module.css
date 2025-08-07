@@ -80,7 +80,8 @@
   border-radius: 272px;
   border: 15px solid var(--Blue-300, #84CAFF);
   background: var(--Colors-Blue-300, #84CAFF);
-  overflow: hidden;
+  overflow: visible;
+  position: relative;
 }
 
 .profileImg img {
