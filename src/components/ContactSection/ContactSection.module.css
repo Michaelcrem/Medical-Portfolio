@@ -5,9 +5,13 @@ h2 {
   text-align: center;
 }
 .intro {
-  color: #666;
-  margin-bottom: 32px;
+  color: var(--Gray-600, #535862);
   text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-bottom: 32px;
 }
 .form {
   composes: maxWidth from '../../index.css';
