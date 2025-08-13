@@ -16,21 +16,21 @@ const AboutSection = () => (
           <img src={buttonUtility} alt="Compassionate Care Icon" className={styles.cardIcon} />
           <div className={styles.cardContent}>
             <strong>Compassionate Care</strong>
-            <p>I care for each patient as an individual, ensuring empathy and understanding.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non.</p>
           </div>
         </div>
         <div className={styles.card}>
           <img src={buttonUtility} alt="Community Service Icon" className={styles.cardIcon} />
           <div className={styles.cardContent}>
             <strong>Community Service</strong>
-            <p>Volunteer and mentor roles in various medical settings.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non.</p>
           </div>
         </div>
         <div className={styles.card}>
           <img src={buttonUtility} alt="Lifelong Learning Icon" className={styles.cardIcon} />
           <div className={styles.cardContent}>
             <strong>Lifelong Learning</strong>
-            <p>Always seeking new knowledge and skills to improve patient care.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non.</p>
           </div>
         </div>
       </div>
