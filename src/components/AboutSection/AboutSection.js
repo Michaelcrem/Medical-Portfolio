@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './AboutSection.module.css';
+import buttonUtility from '../../images/Button utility.svg';
 
 const AboutSection = () => (
   <section className={styles.about} id="about">
@@ -11,9 +12,27 @@ const AboutSection = () => (
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod tempor dolor non ultrices. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam velit, nec ultricies nisi nisl euismod.</p>
       </div>
       <div className={styles.right}>
-        <div className={styles.card}><strong>Compassionate Care</strong><br />I care for each patient as an individual, ensuring empathy and understanding.</div>
-        <div className={styles.card}><strong>Community Service</strong><br />Volunteer and mentor roles in various medical settings.</div>
-        <div className={styles.card}><strong>Lifelong Learning</strong><br />Always seeking new knowledge and skills to improve patient care.</div>
+        <div className={styles.card}>
+          <img src={buttonUtility} alt="Compassionate Care Icon" className={styles.cardIcon} />
+          <div className={styles.cardContent}>
+            <strong>Compassionate Care</strong>
+            <p>I care for each patient as an individual, ensuring empathy and understanding.</p>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <img src={buttonUtility} alt="Community Service Icon" className={styles.cardIcon} />
+          <div className={styles.cardContent}>
+            <strong>Community Service</strong>
+            <p>Volunteer and mentor roles in various medical settings.</p>
+          </div>
+        </div>
+        <div className={styles.card}>
+          <img src={buttonUtility} alt="Lifelong Learning Icon" className={styles.cardIcon} />
+          <div className={styles.cardContent}>
+            <strong>Lifelong Learning</strong>
+            <p>Always seeking new knowledge and skills to improve patient care.</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
