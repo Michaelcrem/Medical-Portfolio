@@ -1,5 +1,6 @@
 .about {
   composes: section from '../../index.css';
+  padding-left: 48px;
 }
 h2 {
   text-align: center;
@@ -24,7 +25,8 @@ h2 {
   text-align: left;
 }
 .left {
-  flex: 2;
+  width: 465px;
+  flex-shrink: 0;
 }
 .right {
   flex: 3;
@@ -39,6 +41,8 @@ h2 {
   padding: 16px;
   font-size: 1rem;
   box-shadow: 0 2px 8px rgba(25, 118, 210, 0.04);
+  width: 489px;
+  min-width: 489px;
   flex-shrink: 0;
   display: flex;
   align-items: flex-start;

@@ -7,10 +7,12 @@ const AboutSection = () => (
     <h2>About Me</h2>
     <p className={styles.intro}>My journey in medicine began with a simple desire to help others heal. Through years of study and clinical experience, this passion has only grown stronger.</p>
     <div className={styles.contentWrapper}>
-      <div className={styles.left}>
-        <h3>My Medical Journey</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod tempor dolor non ultrices. Etiam euismod, urna eu tincidunt consectetur, nisi nisl aliquam velit, nec ultricies nisi nisl euismod.</p>
-      </div>
+              <div className={styles.left}>
+          <h3>My Medical Journey</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus. Non massa enim vitae duis mattis. Vel in ultricies vel fringilla.<br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa.<br /><br />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo massa. Eu dolor aliquet risus gravida nunc at feugiat consequat purus</p>
+        </div>
       <div className={styles.right}>
         <div className={styles.card}>
           <img src={buttonUtility} alt="Compassionate Care Icon" className={styles.cardIcon} />
