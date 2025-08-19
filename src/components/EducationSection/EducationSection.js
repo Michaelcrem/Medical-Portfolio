@@ -13,6 +13,7 @@ const EducationSection = () => (
           <p>University of Connecticut<br />
           Farmington, CT · 2024-2027<br />
           GPA: 3.94/4.0</p>
+          <h4>Honors and Achievements</h4>
           <div className={styles.skills}><span>Medical Sciences</span><span>Clinical Skills</span><span>Research Methods</span></div>
         </div>
         <div className={styles.card}>
@@ -20,6 +21,7 @@ const EducationSection = () => (
           <p>University of California, Davis<br />
           Davis, CA · 2016-2019<br />
           GPA: 3.94/4.0</p>
+          <h4>Honors and Achievements</h4>
           <div className={styles.skills}><span>Psychology</span><span>Biology</span><span>Research</span></div>
         </div>
       </div>
@@ -30,6 +32,7 @@ const EducationSection = () => (
           <p>University of Connecticut<br />
           Farmington, CT · 2024-2027<br />
           GPA: 3.94/4.0</p>
+          <h4>Honors and Achievements</h4>
           <div className={styles.skills}><span>Medical Training</span><span>Clinical Practice</span><span>Patient Care</span></div>
         </div>
       </div>
