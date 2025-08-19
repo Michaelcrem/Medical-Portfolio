@@ -29,6 +29,14 @@ h2 {
   width: 465px;
   flex-shrink: 0;
 }
+
+.left p {
+  color: var(--Gray-500, #717680);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
 .right {
   display: flex;
   flex-direction: column;

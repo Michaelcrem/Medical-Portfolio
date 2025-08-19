@@ -9,28 +9,28 @@ const EducationSection = () => (
       <div className={styles.column}>
         <h3>Academic Background</h3>
         <div className={styles.card}>
-          <strong>Doctor of Medicine (M.D.)</strong><br />
-          University of Connecticut<br />
+          <strong>Doctor of Medicine (M.D.)</strong>
+          <p>University of Connecticut<br />
           Farmington, CT · 2024-2027<br />
-          GPA: 3.94/4.0<br />
-          <div className={styles.links}><a href="#">University of Connecticut</a></div>
+          GPA: 3.94/4.0</p>
+          <div className={styles.skills}><span>Medical Sciences</span><span>Clinical Skills</span><span>Research Methods</span></div>
         </div>
         <div className={styles.card}>
-          <strong>Psychobiology</strong><br />
-          University of California, Davis<br />
+          <strong>Psychobiology</strong>
+          <p>University of California, Davis<br />
           Davis, CA · 2016-2019<br />
-          GPA: 3.94/4.0<br />
-          <div className={styles.links}><a href="#">University of Something</a></div>
+          GPA: 3.94/4.0</p>
+          <div className={styles.skills}><span>Psychology</span><span>Biology</span><span>Research</span></div>
         </div>
       </div>
       <div className={styles.column}>
         <h3>Certifications & Licenses</h3>
         <div className={styles.card}>
-          <strong>Doctor of Medicine (M.D.)</strong><br />
-          University of Connecticut<br />
+          <strong>Doctor of Medicine (M.D.)</strong>
+          <p>University of Connecticut<br />
           Farmington, CT · 2024-2027<br />
-          GPA: 3.94/4.0<br />
-          <div className={styles.links}><a href="#">University of Connecticut</a></div>
+          GPA: 3.94/4.0</p>
+          <div className={styles.skills}><span>Medical Training</span><span>Clinical Practice</span><span>Patient Care</span></div>
         </div>
       </div>
     </div>
