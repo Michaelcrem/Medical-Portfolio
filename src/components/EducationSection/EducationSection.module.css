@@ -44,6 +44,9 @@ h2 {
   align-items: flex-start;
   flex-shrink: 0;
   line-height: 24px;
+  color: var(--Gray-900, #181D27);
+  font-size: 16px;
+  font-style: normal;
 }
 
 .card p {
@@ -67,20 +70,27 @@ h2 {
 
 .skills span {
   background: #e3eafc;
-  color: #1976d2;
+  color: var(--Blue-600, #1570EF);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
   border-radius: 16px;
   padding: 4px 12px;
-  font-size: 0.95rem;
-  font-weight: 500;
 }
 
 .card h4 {
+  display: flex;
+  width: 273px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  line-height: 20px;
   color: var(--Gray-900, #181D27);
   font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  margin: 0 0 8px 0;
+  padding-top: 16px;
 }
 .links a {
   color: #1976d2;
