@@ -28,12 +28,13 @@ const EducationSection = () => (
       <div className={styles.column}>
         <h3>Certifications & Licenses</h3>
         <div className={styles.card}>
-          <strong>Doctor of Medicine (M.D.)</strong>
-          <p>University of Connecticut<br />
-          Farmington, CT · 2024-2027<br />
-          GPA: 3.94/4.0</p>
-          <h4>Honors and Achievements</h4>
-          <div className={styles.skills}><span>Medical Training</span><span>Clinical Practice</span><span>Patient Care</span></div>
+          <ul>
+            <li>BLS (Basic Life Support) - American Heart Association</li>
+            <li>ACLS (Advanced Cardiovascular Life Support) - American Heart Association</li>
+            <li>PALS (Pediatric Advanced Life Support) - American Heart Association</li>
+            <li>USMLE Step 1 - Pass (2023)</li>
+            <li>USMLE Step 2 CK - 260 (2024)</li>
+          </ul>
         </div>
       </div>
     </div>
