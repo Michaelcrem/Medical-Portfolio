@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './AboutSection.module.css';
 import buttonUtility from '../../images/Button utility.svg';
+import community from '../../images/community.svg';
+import education from '../../images/Education.svg';
 
 const AboutSection = () => (
   <section className={styles.about} id="about">
@@ -22,14 +24,14 @@ const AboutSection = () => (
           </div>
         </div>
         <div className={styles.card}>
-          <img src={buttonUtility} alt="Community Service Icon" className={styles.cardIcon} />
+          <img src={community} alt="Community Service Icon" className={styles.cardIcon} />
           <div className={styles.cardContent}>
             <strong>Community Service</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non.</p>
           </div>
         </div>
         <div className={styles.card}>
-          <img src={buttonUtility} alt="Lifelong Learning Icon" className={styles.cardIcon} />
+          <img src={education} alt="Lifelong Learning Icon" className={styles.cardIcon} />
           <div className={styles.cardContent}>
             <strong>Lifelong Learning</strong>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper mattis lorem non.</p>

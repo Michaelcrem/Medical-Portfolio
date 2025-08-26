@@ -27,12 +27,14 @@ h2 {
   gap: 16px;
 }
 .card {
-  background: #fff;
-  border: 1px solid #e3eafc;
-  border-radius: 12px;
+  background: var(--Base-White, #FFF);
+  border: 1px solid var(--Gray-400, #A4A7AE);
+  border-radius: 16px;
   padding: 18px 20px;
   font-size: 1rem;
   box-shadow: 0 2px 8px rgba(25, 118, 210, 0.04);
+  width: 489px;
+  flex-shrink: 0;
 }
 .skills {
   margin-top: 10px;
@@ -42,9 +44,36 @@ h2 {
 }
 .skills span {
   background: #e3eafc;
-  color: #1976d2;
+  color: var(--Blue-600, #1570EF);
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
   border-radius: 16px;
   padding: 4px 12px;
-  font-size: 0.95rem;
-  font-weight: 500;
+}
+
+.card strong {
+  display: flex;
+  width: 273px;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+  line-height: 24px;
+  color: var(--Gray-900, #181D27);
+  font-size: 16px;
+  font-style: normal;
+}
+
+.card p {
+  display: flex;
+  width: 426px;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--Gray-600, #535862);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 } 
