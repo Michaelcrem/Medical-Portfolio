@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './EducationSection.module.css';
+import educationhead from '../../images/Educationhead.svg';
+import certs from '../../images/certs.svg';
 
 const EducationSection = () => (
   <section className={styles.education} id="education">
@@ -7,7 +9,10 @@ const EducationSection = () => (
     <p className={styles.intro}>Academic foundation and professional qualifications.</p>
     <div className={styles.columns}>
       <div className={styles.column}>
-        <h3>Academic Background</h3>
+        <h3>
+          <img src={educationhead} alt="Education Icon" className={styles.educationIcon} />
+          Academic Background
+        </h3>
         <div className={styles.card}>
           <strong>Doctor of Medicine (M.D.)</strong>
           <p>University of Connecticut<br />
@@ -26,7 +31,10 @@ const EducationSection = () => (
         </div>
       </div>
       <div className={styles.column}>
-        <h3>Certifications & Licenses</h3>
+        <h3>
+          <img src={certs} alt="Certifications Icon" className={styles.educationIcon} />
+          Certifications & Licenses
+        </h3>
         <div className={styles.card}>
           <ul>
             <li>BLS (Basic Life Support) - American Heart Association</li>
