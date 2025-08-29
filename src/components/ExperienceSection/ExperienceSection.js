@@ -1,5 +1,7 @@
 import React from 'react';
 import styles from './ExperienceSection.module.css';
+import steth from '../../images/Steth.svg';
+import beaker from '../../images/beaker.svg';
 
 const ExperienceSection = () => (
   <section className={styles.experience} id="experience">
@@ -7,7 +9,10 @@ const ExperienceSection = () => (
     <p className={styles.intro}>Academic foundation and professional qualifications.</p>
     <div className={styles.columns}>
       <div className={styles.column}>
-        <h3>Clinical Rotations</h3>
+        <h3>
+          <img src={steth} alt="Clinical Rotations Icon" className={styles.educationIcon} />
+          Clinical Rotations
+        </h3>
         <div className={styles.card}>
           <strong>Internal Medicine Rotation</strong><br />
           University of Connecticut<br />
@@ -22,7 +27,10 @@ const ExperienceSection = () => (
         </div>
       </div>
       <div className={styles.column}>
-        <h3>Research Experience</h3>
+        <h3>
+          <img src={beaker} alt="Research Experience Icon" className={styles.educationIcon} />
+          Research Experience
+        </h3>
         <div className={styles.card}>
           <strong>Research Assistant</strong><br />
           University of Connecticut, School of Medicine<br />
