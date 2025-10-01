@@ -14,15 +14,19 @@ const ExperienceSection = () => (
           Clinical Rotations
         </h3>
         <div className={styles.card}>
-          <strong>Internal Medicine Rotation</strong><br />
-          University of Connecticut<br />
-          Sept 2024–Mar 2025<br />
+          <strong>Internal Medicine Rotation</strong>
+          <p>University of Connecticut<br />
+          Sept 2024–Mar 2025</p>
+          <p className={styles.description}>Comprehensive clinical rotation focusing on patient care, diagnosis, and treatment planning in various internal medicine specialties.</p>
+          <h4>Key Skills</h4>
           <div className={styles.skills}><span>Patient Assessment</span><span>Treatment Planning</span><span>Medical Documentation</span></div>
         </div>
         <div className={styles.card}>
-          <strong>Internal Medicine Rotation</strong><br />
-          University of Connecticut<br />
-          Sept 2024–Mar 2025<br />
+          <strong>Internal Medicine Rotation</strong>
+          <p>University of Connecticut<br />
+          Sept 2024–Mar 2025</p>
+          <p className={styles.description}>Comprehensive clinical rotation focusing on patient care, diagnosis, and treatment planning in various internal medicine specialties.</p>
+          <h4>Key Skills</h4>
           <div className={styles.skills}><span>Patient Assessment</span><span>Treatment Planning</span><span>Medical Documentation</span></div>
         </div>
       </div>
@@ -32,9 +36,11 @@ const ExperienceSection = () => (
           Research Experience
         </h3>
         <div className={styles.card}>
-          <strong>Research Assistant</strong><br />
-          University of Connecticut, School of Medicine<br />
-          2024–Present<br />
+          <strong>Research Assistant</strong>
+          <p>University of Connecticut, School of Medicine<br />
+          2024–Present</p>
+          <p className={styles.description}>Contributing to medical research projects and scholarly publications in collaboration with faculty researchers.</p>
+          <h4>Key Skills</h4>
           <div className={styles.skills}><span>Publications</span></div>
         </div>
       </div>
