@@ -47,4 +47,67 @@ button {
 }
 button:hover {
   background: #125ea2;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .contact {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .intro {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .form {
+    max-width: 100%;
+  }
+  
+  .row {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  input, textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 14px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .intro {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    gap: 12px;
+  }
+  
+  .row {
+    gap: 12px;
+  }
+  
+  input, textarea {
+    padding: 12px;
+    font-size: 14px;
+  }
+  
+  button {
+    font-size: 14px;
+    padding: 12px 0;
+  }
 } 

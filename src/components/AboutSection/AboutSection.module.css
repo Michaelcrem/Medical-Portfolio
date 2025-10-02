@@ -79,4 +79,84 @@ h2 {
   font-size: 14px;
   font-weight: regular;
   line-height: 20px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .intro {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+    max-width: 100%;
+  }
+  
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  
+  .left {
+    width: 100%;
+    order: 2;
+  }
+  
+  .left p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .right {
+    order: 1;
+    align-items: center;
+  }
+  
+  .card {
+    width: 100%;
+    min-width: unset;
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .intro {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .contentWrapper {
+    gap: 30px;
+  }
+  
+  .card {
+    padding: 12px;
+    gap: 12px;
+  }
+  
+  .cardIcon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .card strong {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .card p {
+    font-size: 12px;
+    line-height: 16px;
+  }
 } 
