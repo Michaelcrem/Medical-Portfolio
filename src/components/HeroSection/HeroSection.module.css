@@ -173,13 +173,13 @@
   }
   
   .buttons {
-    flex-direction: column;
+    flex-direction: row;
     gap: 12px;
   }
   
   .cv, .contact {
-    width: 100%;
-    padding: 12px 24px;
+    flex: 1;
+    padding: 12px 16px;
   }
   
   .profileImg {

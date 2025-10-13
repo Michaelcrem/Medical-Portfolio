@@ -88,18 +88,23 @@ h2 {
     padding-right: 20px;
   }
   
+  .about h2 {
+    text-align: left !important;
+  }
+  
   .intro {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 40px;
     max-width: 100%;
+    text-align: left;
   }
   
   .contentWrapper {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    text-align: center;
+    text-align: left;
   }
   
   .left {
@@ -114,13 +119,13 @@ h2 {
   
   .right {
     order: 1;
-    align-items: center;
+    align-items: flex-start;
   }
   
   .card {
     width: 100%;
     min-width: unset;
-    max-width: 400px;
+    max-width: 100%;
   }
 }
 
