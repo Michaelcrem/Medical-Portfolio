@@ -1,19 +1,40 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from './Header.module.css';
 
-const Header = () => (
-  <header className={styles.header}>
-    <div className={styles.logo}>Katrina Jackson</div>
-    <div className={styles.navContainer}>
-      <nav className={styles.nav}>
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button className={styles.cta}>Get in Touch</button>
-    </div>
-  </header>
-);
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
+  return (
+    <header className={styles.header}>
+      <div className={styles.logo}>Katrina Jackson</div>
+      <button 
+        className={styles.hamburger} 
+        onClick={toggleMenu}
+        aria-label="Toggle menu"
+      >
+        <span className={styles.hamburgerLine}></span>
+        <span className={styles.hamburgerLine}></span>
+        <span className={styles.hamburgerLine}></span>
+      </button>
+      <div className={`${styles.navContainer} ${isMenuOpen ? styles.navOpen : ''}`}>
+        <nav className={styles.nav}>
+          <a href="#about" onClick={closeMenu}>About</a>
+          <a href="#education" onClick={closeMenu}>Education</a>
+          <a href="#experience" onClick={closeMenu}>Experience</a>
+          <a href="#contact" onClick={closeMenu}>Contact</a>
+        </nav>
+        <button className={styles.cta} onClick={closeMenu}>Get in Touch</button>
+      </div>
+    </header>
+  );
+};
 
 export default Header; 

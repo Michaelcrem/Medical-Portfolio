@@ -110,7 +110,8 @@
   .imageWrapper {
     order: 1;
     padding-bottom: 20px;
-    align-self: center;
+    align-self: flex-start;
+    margin-left: 20px;
   }
   
   .hero h1 {
@@ -136,10 +137,10 @@
   }
   
   .profileImg {
-    width: 120px;
-    height: 120px;
-    border-radius: 120px;
-    border: 10px solid var(--Blue-300, #84CAFF);
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 8px solid var(--Blue-300, #84CAFF);
   }
 }
 
@@ -151,7 +152,8 @@
   
   .imageWrapper {
     padding-bottom: 30px;
-    align-self: center;
+    align-self: flex-start;
+    margin-left: 16px;
   }
   
   .hero h1 {
@@ -181,9 +183,9 @@
   }
   
   .profileImg {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    border: 8px solid var(--Blue-300, #84CAFF);
+    width: 85px;
+    height: 85px;
+    border-radius: 85px;
+    border: 7px solid var(--Blue-300, #84CAFF);
   }
 } 
