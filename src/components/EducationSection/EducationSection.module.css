@@ -138,8 +138,9 @@ h2 {
   }
   
   .card {
-    width: 100%;
-    max-width: 100%;
+    width: calc(100% - 16px);
+    max-width: calc(100% - 16px);
+    margin-right: 16px;
   }
   
   .card strong {
