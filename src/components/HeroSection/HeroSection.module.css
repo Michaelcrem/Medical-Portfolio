@@ -44,12 +44,15 @@
 .cv {
   background: #1976d2;
   color: #fff;
-  border: none;
+  border: 2px solid transparent;
   border-radius: 6px;
   padding: 10px 24px;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 .cv:hover {
   background: #125ea2;
@@ -63,6 +66,9 @@
   font-weight: 500;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 .contact:hover {
   background: #1976d2;
